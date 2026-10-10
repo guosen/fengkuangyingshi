@@ -1,0 +1,6 @@
+.env
+deploy/tier2-vps/.env
+__pycache__/
+*.pyc
+.venv/
+.python-version

@@ -1,0 +1,79 @@
+{
+  "name": "疯狂影视 · 精选点播源",
+  "version": 2,
+  "sources": [
+    {
+      "name": "新极品资源站",
+      "url": "https://jipinvip1.com/api.php/provide/vod",
+      "isAdult": false,
+      "detail": "https://jipinvip1.com"
+    },
+    {
+      "name": "无尽资源站",
+      "url": "https://api.wujinapi.me/api.php/provide/vod",
+      "isAdult": false,
+      "detail": "https://api.wujinapi.me"
+    },
+    {
+      "name": "暴风资源站",
+      "url": "https://bfzyapi.com/api.php/provide/vod",
+      "isAdult": false,
+      "detail": "https://bfzyapi.com"
+    },
+    {
+      "name": "辣椒资源站",
+      "url": "https://apilj.com/api.php/provide/vod",
+      "isAdult": false,
+      "detail": "https://apilj.com"
+    },
+    {
+      "name": "奶香香资源站",
+      "url": "https://naixxzy.com/api.php/provide/vod",
+      "isAdult": false,
+      "detail": "https://naixxzy.com"
+    },
+    {
+      "name": "豪华资源站",
+      "url": "https://haohuazy.com/api.php/provide/vod",
+      "isAdult": false,
+      "detail": "https://haohuazy.com"
+    },
+    {
+      "name": "红牛资源站",
+      "url": "http://hongniuzy2.com/api.php/provide/vod",
+      "isAdult": false,
+      "detail": "http://hongniuzy2.com"
+    },
+    {
+      "name": "360资源站",
+      "url": "https://360zy.com/api.php/provide/vod",
+      "isAdult": false,
+      "detail": "https://360zy.com"
+    },
+    {
+      "name": "索尼采集站",
+      "url": "https://suonizy.net/api.php/provide/vod",
+      "isAdult": false,
+      "detail": "https://suonizy.net"
+    },
+    {
+      "name": "最大资源站",
+      "url": "http://zuidazy.me/api.php/provide/vod",
+      "isAdult": false,
+      "detail": "http://zuidazy.me"
+    },
+    {
+      "name": "猫眼资源",
+      "url": "https://api.maoyanapi.top/api.php/provide/vod",
+      "isAdult": false,
+      "detail": "https://api.maoyanapi.top"
+    },
+    {
+      "name": "牛牛资源",
+      "url": "https://api.niuniuzy.me/api.php/provide/vod",
+      "isAdult": false,
+      "detail": "https://api.niuniuzy.me"
+    }
+  ],
+  "liveSources": []
+}

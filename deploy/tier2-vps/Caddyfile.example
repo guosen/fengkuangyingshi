@@ -1,0 +1,5 @@
+# 替换为你的域名，并与 docker-compose 中 caddy 服务一并启用
+
+# your.domain.com {
+#   reverse_proxy libretv:8080
+# }
