@@ -1,0 +1,38 @@
+# Tier2：与 Tier1 相同的 LibreTV 镜像与环境变量键名，仅换部署目标。
+# 订阅 URL 仍可使用 GitHub Pages 上的 sources.json，或改为 VPS 静态目录。
+
+services:
+  libretv:
+    image: ${LIBRETV_IMAGE:-ghcr.io/librespark/libretv:latest}
+    container_name: fengkuangyingshi-libretv
+    restart: unless-stopped
+    ports:
+      - "${LIBRETV_HOST_PORT:-8080}:8080"
+    env_file:
+      - .env
+    # 无状态：历史在浏览器；源列表由 DEFAULT_SUBSCRIPTIONS 或本仓库 Pages 提供
+
+  # 预留：Tier2+ 自研聚合 API（与 LibreTV 并行或逐步替换）
+  # api:
+  #   build: ../../services/api
+  #   ports:
+  #     - "3001:3001"
+  #   environment:
+  #     - SOURCES_POLICY=/config/sources-policy.json
+  #   volumes:
+  #     - ../../config:/config:ro
+
+  # 预留：反代 + 自动 HTTPS（取消注释并配置 Caddyfile）
+  # caddy:
+  #   image: caddy:2-alpine
+  #   ports:
+  #     - "80:80"
+  #     - "443:443"
+  #   volumes:
+  #     - ./Caddyfile:/etc/caddy/Caddyfile:ro
+  #     - caddy_data:/data
+  #   depends_on:
+  #     - libretv
+
+# volumes:
+#   caddy_data:

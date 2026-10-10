@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="theme-color" content="#0f0f12" />
+  <meta name="description" content="疯狂影视 — Tier1 源订阅与 LibreTV 部署指引" />
+  <link rel="manifest" href="/manifest.webmanifest" />
+  <title>疯狂影视 · 源订阅</title>
+  <style>
+    :root {
+      color-scheme: dark;
+      --bg: #0f0f12;
+      --card: #1a1a22;
+      --text: #e8e8ed;
+      --muted: #9a9aa8;
+      --accent: #7c6cff;
+      --ok: #3dd68c;
+      --border: #2a2a36;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: system-ui, -apple-system, "Segoe UI", Roboto, "PingFang SC", sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.55;
+      padding: max(1rem, env(safe-area-inset-top)) 1rem max(2rem, env(safe-area-inset-bottom));
+    }
+    .wrap { max-width: 720px; margin: 0 auto; }
+    h1 { font-size: 1.5rem; margin: 0 0 0.25rem; }
+    .sub { color: var(--muted); font-size: 0.95rem; margin-bottom: 1.5rem; }
+    .card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 1rem 1.1rem;
+      margin-bottom: 1rem;
+    }
+    .card h2 { font-size: 1rem; margin: 0 0 0.75rem; }
+    label { font-size: 0.8rem; color: var(--muted); display: block; margin-bottom: 0.35rem; }
+    .row { display: flex; gap: 0.5rem; flex-wrap: wrap; }
+    input[type="text"] {
+      flex: 1;
+      min-width: 200px;
+      padding: 0.65rem 0.75rem;
+      border-radius: 8px;
+      border: 1px solid var(--border);
+      background: #121218;
+      color: var(--text);
+      font-size: 0.85rem;
+    }
+    button, .btn {
+      padding: 0.65rem 1rem;
+      border-radius: 8px;
+      border: none;
+      background: var(--accent);
+      color: #fff;
+      font-size: 0.85rem;
+      cursor: pointer;
+      text-decoration: none;
+      display: inline-block;
+    }
+    button.secondary { background: #333344; }
+    ul { margin: 0.5rem 0 0; padding-left: 1.2rem; color: var(--muted); font-size: 0.9rem; }
+    .stats { display: flex; gap: 1rem; flex-wrap: wrap; font-size: 0.85rem; color: var(--muted); }
+    .stats strong { color: var(--ok); }
+    code { background: #121218; padding: 0.1em 0.35em; border-radius: 4px; font-size: 0.85em; }
+    footer { margin-top: 2rem; font-size: 0.8rem; color: var(--muted); }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <h1>疯狂影视</h1>
+    <p class="sub">Tier1：GitHub Pages 托管 LibreTV 源订阅 · 播放端部署在 Vercel / Cloudflare（零 VPS）</p>
+
+    <div class="card">
+      <h2>订阅地址（LibreTV / TVBox 兼容）</h2>
+      <label for="subUrl">复制到 LibreTV → 设置 → 源管理 → 数据源订阅</label>
+      <div class="row">
+        <input id="subUrl" type="text" readonly />
+        <button type="button" id="copyBtn">复制</button>
+      </div>
+      <div class="stats" id="stats">加载 manifest…</div>
+    </div>
+
+    <div class="card">
+      <h2>Tier1 快速步骤</h2>
+      <ul>
+        <li>Fork 本仓库，Settings → Pages → Source 选 <strong>GitHub Actions</strong></li>
+        <li>Actions 运行 <strong>Sync LibreTV sources</strong>，确认本页可打开</li>
+        <li>部署 <a href="https://github.com/LibreSpark/LibreTV" style="color:var(--accent)">LibreTV</a> 到 Vercel，设置 <code>PASSWORD</code> 与 <code>DEFAULT_SUBSCRIPTIONS</code>（见仓库 README）</li>
+        <li>手机浏览器打开 LibreTV 地址 → 添加到主屏幕</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h2>数据文件</h2>
+      <ul>
+        <li><a href="./data/sources.json" style="color:var(--accent)">sources.json</a> — LibreTV 订阅</li>
+        <li><a href="./data/manifest.json" style="color:var(--accent)">manifest.json</a> — 生成时间与源明细</li>
+      </ul>
+    </div>
+
+    <footer>
+      私人使用请设置访问密码；公开传播需自行评估版权与合规风险。迁移 VPS 见仓库 <code>docs/DEPLOY-VPS.md</code>。
+    </footer>
+  </div>
+  <script>
+    (function () {
+      var origin = location.origin + location.pathname.replace(/\/[^/]*$/, "/");
+      var sub = origin + "data/sources.json";
+      document.getElementById("subUrl").value = sub;
+      document.getElementById("copyBtn").addEventListener("click", function () {
+        navigator.clipboard.writeText(sub).then(function () {
+          document.getElementById("copyBtn").textContent = "已复制";
+          setTimeout(function () { document.getElementById("copyBtn").textContent = "复制"; }, 1500);
+        });
+      });
+      fetch(origin + "data/manifest.json")
+        .then(function (r) { return r.json(); })
+        .then(function (m) {
+          var s = m.stats || {};
+          document.getElementById("stats").innerHTML =
+            "更新：<strong>" + (m.generatedAt || "-") + "</strong> · 发布源：<strong>" +
+            (s.published || 0) + "</strong> / 候选 " + (s.candidates || 0);
+        })
+        .catch(function () {
+          document.getElementById("stats").textContent = "manifest 尚未生成，请先运行 sync workflow";
+        });
+    })();
+  </script>
+</body>
+</html>

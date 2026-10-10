@@ -1,0 +1,21 @@
+{
+  "$schema": "./sources-policy.schema.json",
+  "listName": "疯狂影视 · 精选点播源",
+  "version": 2,
+  "maxSources": 12,
+  "minRating": 4.0,
+  "requireStatusOk": true,
+  "maxResponseTimeMs": 2500,
+  "preferTags": ["秒播", "无水印", "稳定"],
+  "excludeNamePatterns": [],
+  "healthCheck": {
+    "enabled": true,
+    "timeoutSeconds": 8,
+    "requireAliveForPublish": false
+  },
+  "output": {
+    "sourcesFile": "docs/data/sources.json",
+    "manifestFile": "docs/data/manifest.json",
+    "cacheFile": "docs/data/ziyuanzu-cache.json"
+  }
+}
