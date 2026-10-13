@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-12 23:54:42 UTC",
+  "generatedAt": "2026-10-13 04:17:24 UTC",
   "tier": "1-github-pages",
   "fetchError": "403 Client Error: Forbidden for url: https://www.ziyuanzu.com/api/v1/sources?limit=200",
   "policy": {
@@ -24,7 +24,7 @@
         "health": {
           "is_alive": true,
           "status_code": 200,
-          "response_time_ms": 916.36,
+          "response_time_ms": 577.26,
           "error": null
         }
       }
@@ -40,7 +40,7 @@
         "health": {
           "is_alive": true,
           "status_code": 200,
-          "response_time_ms": 206.24,
+          "response_time_ms": 212.01,
           "error": null
         }
       }
@@ -56,7 +56,7 @@
         "health": {
           "is_alive": true,
           "status_code": 200,
-          "response_time_ms": 307.01,
+          "response_time_ms": 240.57,
           "error": null
         }
       }
@@ -72,7 +72,7 @@
         "health": {
           "is_alive": true,
           "status_code": 200,
-          "response_time_ms": 152.63,
+          "response_time_ms": 327.45,
           "error": null
         }
       }
@@ -88,7 +88,7 @@
         "health": {
           "is_alive": true,
           "status_code": 200,
-          "response_time_ms": 707.9,
+          "response_time_ms": 633.4,
           "error": null
         }
       }
@@ -104,7 +104,7 @@
         "health": {
           "is_alive": true,
           "status_code": 200,
-          "response_time_ms": 749.48,
+          "response_time_ms": 822.76,
           "error": null
         }
       }
@@ -120,7 +120,7 @@
         "health": {
           "is_alive": true,
           "status_code": 200,
-          "response_time_ms": 530.41,
+          "response_time_ms": 437.76,
           "error": null
         }
       }
@@ -136,7 +136,7 @@
         "health": {
           "is_alive": true,
           "status_code": 200,
-          "response_time_ms": 1290.61,
+          "response_time_ms": 1419.72,
           "error": null
         }
       }
@@ -152,7 +152,7 @@
         "health": {
           "is_alive": true,
           "status_code": 200,
-          "response_time_ms": 479.43,
+          "response_time_ms": 321.13,
           "error": null
         }
       }
@@ -168,7 +168,7 @@
         "health": {
           "is_alive": true,
           "status_code": 200,
-          "response_time_ms": 237.31,
+          "response_time_ms": 239.95,
           "error": null
         }
       }
@@ -182,10 +182,10 @@
         "rating": 4.4,
         "responseTime": 994,
         "health": {
-          "is_alive": false,
-          "status_code": null,
-          "response_time_ms": 8045.01,
-          "error": "HTTPSConnectionPool(host='api.maoyanapi.top', port=443): Max retries exceeded with url: /api.php/provide/vod (Caused by ConnectTimeoutError(<HTTPSConnection(host='api.maoyanapi.top', port=443) at 0x7fb8e205deb0>, 'Connection to api.maoyanapi.top timed out. (connect timeout=8.0)'))"
+          "is_alive": true,
+          "status_code": 200,
+          "response_time_ms": 653.76,
+          "error": null
         }
       }
     },
@@ -200,7 +200,7 @@
         "health": {
           "is_alive": true,
           "status_code": 200,
-          "response_time_ms": 359.4,
+          "response_time_ms": 258.34,
           "error": null
         }
       }
