@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-15 20:38:40 UTC",
+  "generatedAt": "2026-10-16 02:00:33 UTC",
   "tier": "1-github-pages",
   "fetchError": "403 Client Error: Forbidden for url: https://www.ziyuanzu.com/api/v1/sources?limit=200",
   "policy": {
@@ -24,7 +24,7 @@
         "health": {
           "is_alive": true,
           "status_code": 200,
-          "response_time_ms": 589.42,
+          "response_time_ms": 488.11,
           "error": null
         }
       }
@@ -40,7 +40,7 @@
         "health": {
           "is_alive": true,
           "status_code": 200,
-          "response_time_ms": 314.7,
+          "response_time_ms": 2426.02,
           "error": null
         }
       }
@@ -56,7 +56,7 @@
         "health": {
           "is_alive": true,
           "status_code": 200,
-          "response_time_ms": 555.84,
+          "response_time_ms": 268.22,
           "error": null
         }
       }
@@ -72,7 +72,7 @@
         "health": {
           "is_alive": true,
           "status_code": 200,
-          "response_time_ms": 291.27,
+          "response_time_ms": 196.57,
           "error": null
         }
       }
@@ -88,7 +88,7 @@
         "health": {
           "is_alive": true,
           "status_code": 200,
-          "response_time_ms": 494.27,
+          "response_time_ms": 771.57,
           "error": null
         }
       }
@@ -104,7 +104,7 @@
         "health": {
           "is_alive": true,
           "status_code": 200,
-          "response_time_ms": 1179.24,
+          "response_time_ms": 360.28,
           "error": null
         }
       }
@@ -120,7 +120,7 @@
         "health": {
           "is_alive": true,
           "status_code": 200,
-          "response_time_ms": 482.72,
+          "response_time_ms": 352.65,
           "error": null
         }
       }
@@ -134,10 +134,10 @@
         "rating": 4.5,
         "responseTime": 952,
         "health": {
-          "is_alive": true,
-          "status_code": 200,
-          "response_time_ms": 1044.71,
-          "error": null
+          "is_alive": false,
+          "status_code": null,
+          "response_time_ms": 8520.47,
+          "error": "HTTPSConnectionPool(host='360zy.com', port=443): Max retries exceeded with url: /api.php/provide/vod (Caused by ConnectTimeoutError(<HTTPSConnection(host='360zy.com', port=443) at 0x7fe3d980e0f0>, 'Connection to 360zy.com timed out. (connect timeout=8.0)'))"
         }
       }
     },
@@ -152,7 +152,7 @@
         "health": {
           "is_alive": true,
           "status_code": 200,
-          "response_time_ms": 777.74,
+          "response_time_ms": 238.4,
           "error": null
         }
       }
@@ -168,7 +168,7 @@
         "health": {
           "is_alive": true,
           "status_code": 200,
-          "response_time_ms": 1407.5,
+          "response_time_ms": 198.93,
           "error": null
         }
       }
@@ -184,7 +184,7 @@
         "health": {
           "is_alive": true,
           "status_code": 200,
-          "response_time_ms": 775.81,
+          "response_time_ms": 615.13,
           "error": null
         }
       }
@@ -200,7 +200,7 @@
         "health": {
           "is_alive": true,
           "status_code": 200,
-          "response_time_ms": 847.58,
+          "response_time_ms": 202.39,
           "error": null
         }
       }
