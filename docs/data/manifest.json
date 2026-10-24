@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-24 02:17:53 UTC",
+  "generatedAt": "2026-10-24 09:56:23 UTC",
   "tier": "1-github-pages",
   "fetchError": "403 Client Error: Forbidden for url: https://www.ziyuanzu.com/api/v1/sources?limit=200",
   "policy": {
@@ -24,7 +24,7 @@
         "health": {
           "is_alive": true,
           "status_code": 200,
-          "response_time_ms": 589.25,
+          "response_time_ms": 467.3,
           "error": null
         }
       }
@@ -40,7 +40,7 @@
         "health": {
           "is_alive": true,
           "status_code": 200,
-          "response_time_ms": 131.04,
+          "response_time_ms": 119.48,
           "error": null
         }
       }
@@ -56,7 +56,7 @@
         "health": {
           "is_alive": true,
           "status_code": 200,
-          "response_time_ms": 360.68,
+          "response_time_ms": 184.68,
           "error": null
         }
       }
@@ -72,7 +72,7 @@
         "health": {
           "is_alive": true,
           "status_code": 200,
-          "response_time_ms": 363.5,
+          "response_time_ms": 265.84,
           "error": null
         }
       }
@@ -88,7 +88,7 @@
         "health": {
           "is_alive": true,
           "status_code": 200,
-          "response_time_ms": 393.83,
+          "response_time_ms": 529.19,
           "error": null
         }
       }
@@ -104,7 +104,7 @@
         "health": {
           "is_alive": true,
           "status_code": 200,
-          "response_time_ms": 326.15,
+          "response_time_ms": 277.38,
           "error": null
         }
       }
@@ -118,10 +118,10 @@
         "rating": 4.5,
         "responseTime": 1148,
         "health": {
-          "is_alive": true,
-          "status_code": 200,
-          "response_time_ms": 301.09,
-          "error": null
+          "is_alive": false,
+          "status_code": null,
+          "response_time_ms": 8123.6,
+          "error": "HTTPSConnectionPool(host='hongniuzy2.com', port=443): Read timed out. (read timeout=8.0)"
         }
       }
     },
@@ -136,7 +136,7 @@
         "health": {
           "is_alive": true,
           "status_code": 200,
-          "response_time_ms": 1630.73,
+          "response_time_ms": 868.94,
           "error": null
         }
       }
@@ -152,7 +152,7 @@
         "health": {
           "is_alive": true,
           "status_code": 200,
-          "response_time_ms": 325.03,
+          "response_time_ms": 262.9,
           "error": null
         }
       }
@@ -168,7 +168,7 @@
         "health": {
           "is_alive": true,
           "status_code": 200,
-          "response_time_ms": 251.89,
+          "response_time_ms": 265.18,
           "error": null
         }
       }
@@ -184,7 +184,7 @@
         "health": {
           "is_alive": true,
           "status_code": 200,
-          "response_time_ms": 726.88,
+          "response_time_ms": 651.52,
           "error": null
         }
       }
@@ -200,7 +200,7 @@
         "health": {
           "is_alive": true,
           "status_code": 200,
-          "response_time_ms": 442.31,
+          "response_time_ms": 395.65,
           "error": null
         }
       }
