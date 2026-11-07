@@ -33,6 +33,12 @@
       "detail": "https://naixxzy.com"
     },
     {
+      "name": "360资源站",
+      "url": "https://360zy.com/api.php/provide/vod",
+      "isAdult": false,
+      "detail": "https://360zy.com"
+    },
+    {
       "name": "魔都资源站",
       "url": "https://www.mdzyapi.com/api.php/provide/vod",
       "isAdult": false,
@@ -51,10 +57,10 @@
       "detail": "https://suonizy.net"
     },
     {
-      "name": "360资源站",
-      "url": "https://360zy.com/api.php/provide/vod",
+      "name": "最大资源站",
+      "url": "http://zuidazy.me/api.php/provide/vod",
       "isAdult": false,
-      "detail": "https://360zy.com"
+      "detail": "http://zuidazy.me"
     },
     {
       "name": "天涯影视资源站",
@@ -63,16 +69,10 @@
       "detail": "https://tyyszyapi.com"
     },
     {
-      "name": "最大资源站",
-      "url": "http://zuidazy.me/api.php/provide/vod",
+      "name": "牛牛资源",
+      "url": "https://api.niuniuzy.me/api.php/provide/vod",
       "isAdult": false,
-      "detail": "http://zuidazy.me"
-    },
-    {
-      "name": "樱花资源站",
-      "url": "https://m3u8.apiyhzy.com/api.php/provide/vod",
-      "isAdult": false,
-      "detail": "https://m3u8.apiyhzy.com"
+      "detail": "https://api.niuniuzy.me"
     }
   ],
   "liveSources": []
