@@ -27,22 +27,16 @@
       "detail": "https://apilj.com"
     },
     {
-      "name": "豪华资源站",
-      "url": "https://haohuazy.com/api.php/provide/vod",
-      "isAdult": false,
-      "detail": "https://haohuazy.com"
-    },
-    {
       "name": "红牛资源站",
       "url": "http://hongniuzy2.com/api.php/provide/vod",
       "isAdult": false,
       "detail": "http://hongniuzy2.com"
     },
     {
-      "name": "奶香香资源站",
-      "url": "https://naixxzy.com/api.php/provide/vod",
+      "name": "豪华资源站",
+      "url": "https://haohuazy.com/api.php/provide/vod",
       "isAdult": false,
-      "detail": "https://naixxzy.com"
+      "detail": "https://haohuazy.com"
     },
     {
       "name": "魔都资源站",
@@ -63,16 +57,22 @@
       "detail": "https://suonizy.net"
     },
     {
-      "name": "天涯影视资源站",
-      "url": "https://tyyszyapi.com/api.php/provide/vod",
+      "name": "奶香香资源站",
+      "url": "https://naixxzy.com/api.php/provide/vod",
       "isAdult": false,
-      "detail": "https://tyyszyapi.com"
+      "detail": "https://naixxzy.com"
     },
     {
       "name": "最大资源站",
       "url": "http://zuidazy.me/api.php/provide/vod",
       "isAdult": false,
       "detail": "http://zuidazy.me"
+    },
+    {
+      "name": "猫眼资源",
+      "url": "https://api.maoyanapi.top/api.php/provide/vod",
+      "isAdult": false,
+      "detail": "https://api.maoyanapi.top"
     }
   ],
   "liveSources": []
