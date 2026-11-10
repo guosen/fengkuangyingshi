@@ -21,22 +21,10 @@
       "detail": "https://api.wujinapi.me"
     },
     {
-      "name": "魔都资源站",
-      "url": "https://www.mdzyapi.com/api.php/provide/vod",
-      "isAdult": false,
-      "detail": "https://www.mdzyapi.com"
-    },
-    {
       "name": "红牛资源站",
       "url": "http://hongniuzy2.com/api.php/provide/vod",
       "isAdult": false,
       "detail": "http://hongniuzy2.com"
-    },
-    {
-      "name": "奶香香资源站",
-      "url": "https://naixxzy.com/api.php/provide/vod",
-      "isAdult": false,
-      "detail": "https://naixxzy.com"
     },
     {
       "name": "豪华资源站",
@@ -45,10 +33,16 @@
       "detail": "https://haohuazy.com"
     },
     {
-      "name": "辣椒资源站",
-      "url": "https://apilj.com/api.php/provide/vod",
+      "name": "魔都资源站",
+      "url": "https://www.mdzyapi.com/api.php/provide/vod",
       "isAdult": false,
-      "detail": "https://apilj.com"
+      "detail": "https://www.mdzyapi.com"
+    },
+    {
+      "name": "奶香香资源站",
+      "url": "https://naixxzy.com/api.php/provide/vod",
+      "isAdult": false,
+      "detail": "https://naixxzy.com"
     },
     {
       "name": "索尼采集站",
@@ -63,16 +57,22 @@
       "detail": "https://360zy.com"
     },
     {
+      "name": "辣椒资源站",
+      "url": "https://apilj.com/api.php/provide/vod",
+      "isAdult": false,
+      "detail": "https://apilj.com"
+    },
+    {
       "name": "最大资源站",
       "url": "http://zuidazy.me/api.php/provide/vod",
       "isAdult": false,
       "detail": "http://zuidazy.me"
     },
     {
-      "name": "天涯影视资源站",
-      "url": "https://tyyszyapi.com/api.php/provide/vod",
+      "name": "牛牛资源",
+      "url": "https://api.niuniuzy.me/api.php/provide/vod",
       "isAdult": false,
-      "detail": "https://tyyszyapi.com"
+      "detail": "https://api.niuniuzy.me"
     }
   ],
   "liveSources": []

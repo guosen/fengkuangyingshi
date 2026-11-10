@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-10 00:56:35 UTC",
+  "generatedAt": "2026-11-10 13:54:17 UTC",
   "tier": "1-github-pages",
   "fetchError": null,
   "policy": {
@@ -9,7 +9,7 @@
   },
   "stats": {
     "rawTotal": 77,
-    "candidates": 55,
+    "candidates": 44,
     "published": 12
   },
   "sourcesDetail": [
@@ -20,11 +20,11 @@
       "detail": "https://jipinvip1.com",
       "_meta": {
         "rating": 4.8,
-        "responseTime": 666,
+        "responseTime": 654,
         "health": {
           "is_alive": true,
           "status_code": 200,
-          "response_time_ms": 537.01,
+          "response_time_ms": 528.91,
           "error": null
         }
       }
@@ -36,11 +36,11 @@
       "detail": "https://bfzyapi.com",
       "_meta": {
         "rating": 4.6,
-        "responseTime": 576,
+        "responseTime": 589,
         "health": {
           "is_alive": true,
           "status_code": 200,
-          "response_time_ms": 641.57,
+          "response_time_ms": 654.47,
           "error": null
         }
       }
@@ -52,27 +52,11 @@
       "detail": "https://api.wujinapi.me",
       "_meta": {
         "rating": 4.5,
-        "responseTime": 361,
+        "responseTime": 369,
         "health": {
           "is_alive": true,
           "status_code": 200,
-          "response_time_ms": 169.55,
-          "error": null
-        }
-      }
-    },
-    {
-      "name": "魔都资源站",
-      "url": "https://www.mdzyapi.com/api.php/provide/vod",
-      "isAdult": false,
-      "detail": "https://www.mdzyapi.com",
-      "_meta": {
-        "rating": 4.5,
-        "responseTime": 664,
-        "health": {
-          "is_alive": true,
-          "status_code": 200,
-          "response_time_ms": 451.24,
+          "response_time_ms": 138.88,
           "error": null
         }
       }
@@ -84,27 +68,11 @@
       "detail": "http://hongniuzy2.com",
       "_meta": {
         "rating": 4.5,
-        "responseTime": 666,
+        "responseTime": 658,
         "health": {
           "is_alive": true,
           "status_code": 200,
-          "response_time_ms": 185.74,
-          "error": null
-        }
-      }
-    },
-    {
-      "name": "奶香香资源站",
-      "url": "https://naixxzy.com/api.php/provide/vod",
-      "isAdult": false,
-      "detail": "https://naixxzy.com",
-      "_meta": {
-        "rating": 4.5,
-        "responseTime": 719,
-        "health": {
-          "is_alive": true,
-          "status_code": 200,
-          "response_time_ms": 624.67,
+          "response_time_ms": 179.25,
           "error": null
         }
       }
@@ -116,27 +84,43 @@
       "detail": "https://haohuazy.com",
       "_meta": {
         "rating": 4.5,
-        "responseTime": 928,
+        "responseTime": 879,
         "health": {
           "is_alive": true,
           "status_code": 200,
-          "response_time_ms": 851.93,
+          "response_time_ms": 796.14,
           "error": null
         }
       }
     },
     {
-      "name": "辣椒资源站",
-      "url": "https://apilj.com/api.php/provide/vod",
+      "name": "魔都资源站",
+      "url": "https://www.mdzyapi.com/api.php/provide/vod",
       "isAdult": false,
-      "detail": "https://apilj.com",
+      "detail": "https://www.mdzyapi.com",
       "_meta": {
         "rating": 4.5,
-        "responseTime": 960,
+        "responseTime": 1316,
         "health": {
           "is_alive": true,
           "status_code": 200,
-          "response_time_ms": 919.26,
+          "response_time_ms": 469.01,
+          "error": null
+        }
+      }
+    },
+    {
+      "name": "奶香香资源站",
+      "url": "https://naixxzy.com/api.php/provide/vod",
+      "isAdult": false,
+      "detail": "https://naixxzy.com",
+      "_meta": {
+        "rating": 4.5,
+        "responseTime": 1125,
+        "health": {
+          "is_alive": true,
+          "status_code": 200,
+          "response_time_ms": 486.94,
           "error": null
         }
       }
@@ -148,11 +132,11 @@
       "detail": "https://suonizy.net",
       "_meta": {
         "rating": 4.4,
-        "responseTime": 598,
+        "responseTime": 687,
         "health": {
           "is_alive": true,
           "status_code": 200,
-          "response_time_ms": 225.43,
+          "response_time_ms": 252.75,
           "error": null
         }
       }
@@ -164,11 +148,27 @@
       "detail": "https://360zy.com",
       "_meta": {
         "rating": 4.5,
-        "responseTime": 1236,
+        "responseTime": 1365,
         "health": {
           "is_alive": true,
           "status_code": 200,
-          "response_time_ms": 1290.75,
+          "response_time_ms": 1178.7,
+          "error": null
+        }
+      }
+    },
+    {
+      "name": "辣椒资源站",
+      "url": "https://apilj.com/api.php/provide/vod",
+      "isAdult": false,
+      "detail": "https://apilj.com",
+      "_meta": {
+        "rating": 4.5,
+        "responseTime": 1438,
+        "health": {
+          "is_alive": true,
+          "status_code": 200,
+          "response_time_ms": 963.9,
           "error": null
         }
       }
@@ -180,27 +180,27 @@
       "detail": "http://zuidazy.me",
       "_meta": {
         "rating": 4.5,
-        "responseTime": 503,
+        "responseTime": 494,
         "health": {
           "is_alive": true,
           "status_code": 200,
-          "response_time_ms": 193.78,
+          "response_time_ms": 175.14,
           "error": null
         }
       }
     },
     {
-      "name": "天涯影视资源站",
-      "url": "https://tyyszyapi.com/api.php/provide/vod",
+      "name": "牛牛资源",
+      "url": "https://api.niuniuzy.me/api.php/provide/vod",
       "isAdult": false,
-      "detail": "https://tyyszyapi.com",
+      "detail": "https://api.niuniuzy.me",
       "_meta": {
-        "rating": 4.4,
-        "responseTime": 324,
+        "rating": 4.5,
+        "responseTime": 544,
         "health": {
           "is_alive": true,
           "status_code": 200,
-          "response_time_ms": 271.59,
+          "response_time_ms": 264.07,
           "error": null
         }
       }
