@@ -21,16 +21,16 @@
       "detail": "https://api.wujinapi.me"
     },
     {
-      "name": "豪华资源站",
-      "url": "https://haohuazy.com/api.php/provide/vod",
-      "isAdult": false,
-      "detail": "https://haohuazy.com"
-    },
-    {
       "name": "红牛资源站",
       "url": "http://hongniuzy2.com/api.php/provide/vod",
       "isAdult": false,
       "detail": "http://hongniuzy2.com"
+    },
+    {
+      "name": "豪华资源站",
+      "url": "https://haohuazy.com/api.php/provide/vod",
+      "isAdult": false,
+      "detail": "https://haohuazy.com"
     },
     {
       "name": "360资源站",
@@ -39,10 +39,10 @@
       "detail": "https://360zy.com"
     },
     {
-      "name": "魔都资源站",
-      "url": "https://www.mdzyapi.com/api.php/provide/vod",
+      "name": "索尼采集站",
+      "url": "https://suonizy.net/api.php/provide/vod",
       "isAdult": false,
-      "detail": "https://www.mdzyapi.com"
+      "detail": "https://suonizy.net"
     },
     {
       "name": "辣椒资源站",
@@ -51,28 +51,28 @@
       "detail": "https://apilj.com"
     },
     {
-      "name": "奶香香资源站",
-      "url": "https://naixxzy.com/api.php/provide/vod",
+      "name": "魔都资源站",
+      "url": "https://www.mdzyapi.com/api.php/provide/vod",
       "isAdult": false,
-      "detail": "https://naixxzy.com"
-    },
-    {
-      "name": "索尼采集站",
-      "url": "https://suonizy.net/api.php/provide/vod",
-      "isAdult": false,
-      "detail": "https://suonizy.net"
-    },
-    {
-      "name": "樱花资源站",
-      "url": "https://m3u8.apiyhzy.com/api.php/provide/vod",
-      "isAdult": false,
-      "detail": "https://m3u8.apiyhzy.com"
+      "detail": "https://www.mdzyapi.com"
     },
     {
       "name": "最大资源站",
       "url": "http://zuidazy.me/api.php/provide/vod",
       "isAdult": false,
       "detail": "http://zuidazy.me"
+    },
+    {
+      "name": "天涯影视资源站",
+      "url": "https://tyyszyapi.com/api.php/provide/vod",
+      "isAdult": false,
+      "detail": "https://tyyszyapi.com"
+    },
+    {
+      "name": "猫眼资源",
+      "url": "https://api.maoyanapi.top/api.php/provide/vod",
+      "isAdult": false,
+      "detail": "https://api.maoyanapi.top"
     }
   ],
   "liveSources": []
