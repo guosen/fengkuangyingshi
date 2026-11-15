@@ -21,6 +21,12 @@
       "detail": "https://api.wujinapi.me"
     },
     {
+      "name": "魔都资源站",
+      "url": "https://www.mdzyapi.com/api.php/provide/vod",
+      "isAdult": false,
+      "detail": "https://www.mdzyapi.com"
+    },
+    {
       "name": "红牛资源站",
       "url": "http://hongniuzy2.com/api.php/provide/vod",
       "isAdult": false,
@@ -37,12 +43,6 @@
       "url": "https://360zy.com/api.php/provide/vod",
       "isAdult": false,
       "detail": "https://360zy.com"
-    },
-    {
-      "name": "魔都资源站",
-      "url": "https://www.mdzyapi.com/api.php/provide/vod",
-      "isAdult": false,
-      "detail": "https://www.mdzyapi.com"
     },
     {
       "name": "辣椒资源站",
@@ -69,10 +69,10 @@
       "detail": "http://zuidazy.me"
     },
     {
-      "name": "猫眼资源",
-      "url": "https://api.maoyanapi.top/api.php/provide/vod",
+      "name": "JKUN资源站",
+      "url": "https://jkunzyapi.com/api.php/provide/vod",
       "isAdult": false,
-      "detail": "https://api.maoyanapi.top"
+      "detail": "https://jkunzyapi.com"
     }
   ],
   "liveSources": []
