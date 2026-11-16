@@ -51,16 +51,16 @@
       "detail": "https://suonizy.net"
     },
     {
-      "name": "360资源站",
-      "url": "https://360zy.com/api.php/provide/vod",
-      "isAdult": false,
-      "detail": "https://360zy.com"
-    },
-    {
       "name": "辣椒资源站",
       "url": "https://apilj.com/api.php/provide/vod",
       "isAdult": false,
       "detail": "https://apilj.com"
+    },
+    {
+      "name": "360资源站",
+      "url": "https://360zy.com/api.php/provide/vod",
+      "isAdult": false,
+      "detail": "https://360zy.com"
     },
     {
       "name": "最大资源站",
@@ -69,10 +69,10 @@
       "detail": "http://zuidazy.me"
     },
     {
-      "name": "猫眼资源",
-      "url": "https://api.maoyanapi.top/api.php/provide/vod",
+      "name": "牛牛资源",
+      "url": "https://api.niuniuzy.me/api.php/provide/vod",
       "isAdult": false,
-      "detail": "https://api.maoyanapi.top"
+      "detail": "https://api.niuniuzy.me"
     }
   ],
   "liveSources": []
