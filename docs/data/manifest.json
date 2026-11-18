@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-18 00:08:37 UTC",
+  "generatedAt": "2026-11-18 14:43:33 UTC",
   "tier": "1-github-pages",
   "fetchError": null,
   "policy": {
@@ -24,7 +24,7 @@
         "health": {
           "is_alive": true,
           "status_code": 200,
-          "response_time_ms": 442.6,
+          "response_time_ms": 534.87,
           "error": null
         }
       }
@@ -40,7 +40,7 @@
         "health": {
           "is_alive": true,
           "status_code": 200,
-          "response_time_ms": 321.14,
+          "response_time_ms": 579.7,
           "error": null
         }
       }
@@ -56,7 +56,7 @@
         "health": {
           "is_alive": true,
           "status_code": 200,
-          "response_time_ms": 169.11,
+          "response_time_ms": 249.01,
           "error": null
         }
       }
@@ -72,7 +72,7 @@
         "health": {
           "is_alive": true,
           "status_code": 200,
-          "response_time_ms": 632.5,
+          "response_time_ms": 870.61,
           "error": null
         }
       }
@@ -88,7 +88,7 @@
         "health": {
           "is_alive": true,
           "status_code": 200,
-          "response_time_ms": 122.97,
+          "response_time_ms": 213.04,
           "error": null
         }
       }
@@ -104,7 +104,7 @@
         "health": {
           "is_alive": true,
           "status_code": 200,
-          "response_time_ms": 215.03,
+          "response_time_ms": 641.2,
           "error": null
         }
       }
@@ -120,7 +120,7 @@
         "health": {
           "is_alive": true,
           "status_code": 200,
-          "response_time_ms": 438.97,
+          "response_time_ms": 1032.58,
           "error": null
         }
       }
@@ -134,10 +134,10 @@
         "rating": 4.5,
         "responseTime": 1318,
         "health": {
-          "is_alive": false,
-          "status_code": null,
-          "response_time_ms": 8507.21,
-          "error": "HTTPSConnectionPool(host='360zy.com', port=443): Max retries exceeded with url: /api.php/provide/vod (Caused by ConnectTimeoutError(<HTTPSConnection(host='360zy.com', port=443) at 0x7c92cce9a0c0>, 'Connection to 360zy.com timed out. (connect timeout=8.0)'))"
+          "is_alive": true,
+          "status_code": 200,
+          "response_time_ms": 1241.2,
+          "error": null
         }
       }
     },
@@ -152,7 +152,7 @@
         "health": {
           "is_alive": true,
           "status_code": 200,
-          "response_time_ms": 329.63,
+          "response_time_ms": 350.74,
           "error": null
         }
       }
@@ -168,7 +168,7 @@
         "health": {
           "is_alive": true,
           "status_code": 200,
-          "response_time_ms": 302.44,
+          "response_time_ms": 373.54,
           "error": null
         }
       }
@@ -184,7 +184,7 @@
         "health": {
           "is_alive": true,
           "status_code": 200,
-          "response_time_ms": 261.2,
+          "response_time_ms": 305.26,
           "error": null
         }
       }
@@ -198,10 +198,10 @@
         "rating": 4.4,
         "responseTime": 619,
         "health": {
-          "is_alive": false,
-          "status_code": null,
-          "response_time_ms": 8127.04,
-          "error": "HTTPSConnectionPool(host='m3u8.apiyhzy.com', port=443): Read timed out. (read timeout=8.0)"
+          "is_alive": true,
+          "status_code": 200,
+          "response_time_ms": 431.8,
+          "error": null
         }
       }
     }
